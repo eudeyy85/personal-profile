@@ -1,0 +1,104 @@
+.background {
+    position: relative;
+    overflow: hidden;
+}
+
+.background video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 70%;
+    min-height: 1%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.nav a {
+    position: relative;
+    left: 200px;
+    top: 20px;
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+.p-img{
+    width: 145px;
+    height: 350px;
+    position: absolute;
+    left: 230px;
+    bottom: 0px;
+}
+.intro {
+    position: absolute;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro h1 {
+    font-family: serif;
+    font-size: 60px;
+    color: aliceblue;
+    margin-right: -960px;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+
+.intro h2{
+    font-family: serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 200;
+    color: aliceblue;
+    margin-right: -1290px;
+    margin-top: 20px;
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-right: -960px;
+    margin-top: 15px;
+    text-align: left;
+    position: absolute;
+    left: 445px;
+    font-weight: 600;
+}
+
+.contact-btn {
+    background-color: #b3a1c9;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.portfolio-btn {
+    background-color: #b3a1c9;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    left: 480px;
+    bottom: -150px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+    left: 790px;
+    bottom: -110px;
+}

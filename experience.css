@@ -1,0 +1,145 @@
+.background {
+    position: relative;
+    overflow: hidden;
+}
+
+.background video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 70%;
+    min-height: 1%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.nav a {
+    position: relative;
+    left: 200px;
+    top: 20px;
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.p-img{
+    width: 400px;
+    height: 370px;
+    position: absolute;
+    left: 203px;
+    top: 315px;
+}
+
+.t-img{
+    width: 400px;
+    height: 470px;
+    position: relative;
+    left: 700px;
+    top: 25px;
+    z-index: 1;
+}
+
+.w-img{
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    left: 220px;
+    top: 385px;
+}
+
+.intro {
+    position: absolute;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro h1 {
+    font-family: serif;
+    font-size: 55px;
+    color: aliceblue;
+    margin-right: -600px;
+    position: absolute;
+    top: 130px;
+    left: 390px;
+
+}
+
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    margin-right: -960px;
+    margin-top: 15px;
+    text-align: left;
+    position: absolute;
+    left: 815px;
+    top: 220px;
+    z-index: 2;
+}
+
+.p1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    margin-right: -960px;
+    margin-top: 15px;
+    text-align: left;
+    position: absolute;
+    left: 790px;
+    top: 330px;
+    z-index: 2;
+}
+
+.p2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    margin-right: -960px;
+    margin-top: 15px;
+    text-align: left;
+    position: absolute;
+    left: 765px;
+    top: 380px;
+    z-index: 2;
+
+}
+
+.p3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    margin-right: -960px;
+    margin-top: 15px;
+    text-align: left;
+    position: absolute;
+    left: 765px;
+    top: 450px;
+    z-index: 2;
+}
+
+.contact-btn {
+    background-color: #b3a1c9;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+    left: 790px;
+    bottom: -550px;
+}
